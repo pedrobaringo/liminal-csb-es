@@ -14,7 +14,7 @@
   - [Pestaña de Notas](#pestaña-de-notas)
 - [Crear un Equipo](#crear-un-equipo)
   - [Pestaña de Ventajas](#pestaña-de-ventajas)
-  - [Pestaña de Relaciones](#pestaña-de-notas)
+  - [Pestaña de Relaciones](#pestaña-de-relaciones)
   - [Pestaña de Notas](#pestaña-de-notas-1)
 - [Crear Objetos](#crear-objetos)
 - [Hacer tiradas](#hacer-tiradas)
