@@ -25,7 +25,7 @@ Modulo de Foundry VTT con las templates de las fichas para el juego The Troubles
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace:
 
-[![Video del tutorial](http://img.youtube.com/vi/2LBxsz_r_Wg/0.jpg)](http://www.youtube.com/watch?v=2LBxsz_r_Wg "Tutorial Foundry-Troubleshooters")
+![Fondo Tutorial Liminal](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/264298e3-efca-4894-99f4-ea14643ad53b)
 
 
 ## Instalación
