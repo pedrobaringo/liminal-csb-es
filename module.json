@@ -1,0 +1,60 @@
+{
+  "id": "liminal-csb-es",
+  "title": "Liminal (CSB) ES",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Pedro Baringo",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "templatesactores",
+      "label": "Templates_Actores",
+      "path": "packs/templatesactores",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "templatesobjetos",
+      "label": "Templates_Objetos",
+      "path": "packs/templatesobjetos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/pedrobaringo/liminal-csb-es",
+  "manifest": "https://github.com/pedrobaringo/liminal-csb-es/releases/latest/download/module.json",
+  "download": "https://github.com/pedrobaringo/liminal-csb-es/releases/download/1.0.0/liminal-csb-es.zip"
+}

@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Mason_Serif_Bold;
+    src: url("../assets/mason-serif-bold.otf") format("opentype");
+}
+@font-face {
+    font-family: Goudy_old_bold;
+    src: url("../assets/GOUDOSB.TTF") format("opentype");
+}
+.window-app .window-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+	background: aliceblue;
+    padding: 8px;
+    color: var(--color-text-dark-primary);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.custom-system-rollable {
+    color: #003f62;
+}
+.hablabel{
+	flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+	font-family: 'Goudy_old_bold';
+	font-size:17px;
+	text-align: justify;
+}
+.habnumber input{
+	font-family: 'Goudy_old_bold';
+	font-size:17px;
+	text-align: center;
+	width: 30px;
+}
+.tablahab table {
+	background-color:transparent;
+	border-right:1px solid #003f62;
+	border-top:0px;
+	border-bottom:0px;
+}
+.titulogrande{
+	font-family: 'Mason_Serif_Bold';
+	font-size:20px;
+}
+.titulonorm{
+	font-family: 'Mason_Serif_Bold';
+	font-size:18px;
+}
+.textointro{
+	font-family: 'Mason_Serif_Bold';
+	font-size:18px;
+}
+.textointro input{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: center;
+	width:40px;
+}
+.textointro select{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: center;
+	width: 50%;
+}
+.textoespe{
+	font-family: 'Mason_Serif_Bold';
+	font-size:18px;
+}
+.textoespe input{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: left;
+}
+.tabladano{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: left;
+	color: #003f62;
+	background-color: #e5f2fd;
+}
+.tabladano table td:first-child a{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: left;
+	color: #003f62;
+	padding-left:10px;
+}
+.custom-system-item-container-image{
+	display:none;
+}
+.iniciativapanel{
+	display:none;
+}
+.tabbedpanel .item{
+	font-family:'Mason_Serif_Bold';
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	color:#505851;
+}
+.tabbedpanel .item.active{
+	text-decoration: underline;
+	color:black;
+}
+.charname{
+	font-family:'Mason_Serif_Bold';
+	font-size:30px;
+}
+.itemname{
+	font-family:'Mason_Serif_Bold';
+	font-size:30px;
+}
+.tablatallim table{
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	background-color: #e5f2fd;
+}
+.tablatallim table td:first-child a{
+	color: #003f62;
+}
+.tablatallim table p{
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	text-align: justify;
+	padding-right:7px;
+}
+.tablatallim table tr:first-child{
+	font-family:'Mason_Serif_Bold';
+	font-size:18px;
+}
+.tablatallim table td:first-child{
+	padding-left:8px;
+}
+.tablaexp table{
+	background-color:transparent;
+	border: 0px;
+}
+.tablaexp table tr:first-child{
+	border-bottom: 1px solid;
+}
+.notastext {
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+}
+.numdif {
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	text-align:center;
+}
+.descitem{
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	text-align:justify;
+}
+.descitem label{
+	font-family:'Mason_Serif_Bold';
+	font-size:18px;
+	text-align:justify;
+}
+.custom-system-roll {
+    background: #fff0;
+    border: 0px solid #4b4a44;
+	font-family:'Mason_Serif_Bold';
+	font-size:30px;
+	font-weight:600;
+}
+.custom-system-roll i{
+	display: none;
+}
+.chat-message .message-content h1{
+font-family:'Mason_Serif_Bold';
+	font-size:30px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+font-family:'Mason_Serif_Bold';
+	font-size:25px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+font-family:'Mason_Serif_Bold';
+	font-size:15px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.inline-roll {
+	font-family:'Goudy_old_bold';
+}
+.sheet.journal-entry .journal-entry-content{
+	background: aliceblue;
+}
+.monks-enhanced-journal .enhanced-journal .sheet.journal-entry .journal-entry-content {
+	background: aliceblue;
+}
+.sheet.journal-entry .journal-entry-page header h1{
+font-family:'Mason_Serif_Bold';
+	font-size: 40px;
+}
+.sheet.journal-entry .journal-entry-page h1{
+font-family:'Mason_Serif_Bold';
+	font-size: 30px;
+}
+.sheet.journal-entry .journal-entry-page h2{
+font-family:'Mason_Serif_Bold';
+	font-size: 28px;
+}
+.sheet.journal-entry .journal-entry-page h3{
+font-family:'Mason_Serif_Bold';
+	font-size: 20px;
+}
+.sheet.journal-entry .journal-entry-page {
+font-family:'Goudy_old_bold';
+	font-size: 15px;
+}
+.sheet.journal-entry .pages-list .page-heading .page-title{
+	font-family:'Mason_Serif_Bold';
+	font-size: 20px;
+}
+.sheet.journal-entry .pages-list .h2 .heading-link {
+	font-family:'Mason_Serif_Bold';
+	font-size: 16px;
+}
+.sheet.journal-entry .journal-header .title {
+	font-family:'Mason_Serif_Bold';
+	font-size: 50px;
+	font-weight:700;
+	padding-bottom:15px;
+}
