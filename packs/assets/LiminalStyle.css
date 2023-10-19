@@ -233,3 +233,11 @@ font-family:'Goudy_old_bold';
 	font-weight:700;
 	padding-bottom:15px;
 }
+.tablatallim a.content-link{
+	background:transparent;
+	border: 0px;
+}
+.tabladano a.content-link{
+	background:transparent;
+	border: 0px;
+}
