@@ -1,3 +1,5 @@
+![Fondo Tutorial Liminal](https://github.com/pedrobaringo/liminal-csb-es/assets/148097688/3c631333-a8ba-4df5-8aba-61b0b183a836)
+
 # Fichas para Liminal en Custom System Builder
 
 ## Tabla de Contenido
