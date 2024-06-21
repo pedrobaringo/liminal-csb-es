@@ -17,6 +17,9 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
+.chat-message {
+	background: aliceblue;
+}
 .custom-system-rollable {
     color: #003f62;
 }
@@ -240,4 +243,27 @@ font-family:'Goudy_old_bold';
 .tabladano a.content-link{
 	background:transparent;
 	border: 0px;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Mason_Serif_Bold';
+	text-align:center;
+	font-size: 1vw;
+	text-wrap: wrap;
+	line-height:100%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #003f62;
+	white-space: normal;
+}
+.chat-message .message-header {
+	border-bottom: 2px solid #003f62;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'Goudy_old_bold';
+	text-wrap: wrap;
+	font-size:10px;
 }
