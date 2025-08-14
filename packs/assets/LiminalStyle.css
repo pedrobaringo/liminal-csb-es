@@ -6,7 +6,7 @@
     font-family: Goudy_old_bold;
     src: url("../assets/GOUDOSB.TTF") format("opentype");
 }
-.window-app .window-content {
+.actor-v1 .window-content {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -20,10 +20,10 @@
 .chat-message {
 	background: aliceblue;
 }
-.custom-system-rollable {
+.actor-v1 .custom-system-rollable {
     color: #003f62;
 }
-.hablabel{
+.actor-v1 .hablabel{
 	flex-direction: column;
     flex-grow: 0;
     flex-shrink: 1;
@@ -31,138 +31,138 @@
 	font-size:17px;
 	text-align: justify;
 }
-.habnumber input{
+.actor-v1 .habnumber input{
 	font-family: 'Goudy_old_bold';
 	font-size:17px;
 	text-align: center;
 	width: 30px;
 }
-.tablahab table {
+.actor-v1 .tablahab table {
 	background-color:transparent;
 	border-right:1px solid #003f62;
 	border-top:0px;
 	border-bottom:0px;
 }
-.titulogrande{
+.actor-v1 .titulogrande{
 	font-family: 'Mason_Serif_Bold';
 	font-size:20px;
 }
-.titulonorm{
+.actor-v1 .titulonorm{
 	font-family: 'Mason_Serif_Bold';
 	font-size:18px;
 }
-.textointro{
+.actor-v1 .textointro{
 	font-family: 'Mason_Serif_Bold';
 	font-size:18px;
 }
-.textointro input{
+.actor-v1 .textointro input{
 	font-family: 'Goudy_old_bold';
 	font-size:18px;
 	text-align: center;
 	width:40px;
 }
-.textointro select{
+.actor-v1 .textointro select{
 	font-family: 'Goudy_old_bold';
 	font-size:18px;
 	text-align: center;
 	width: 50%;
 }
-.textoespe{
+.actor-v1 .textoespe{
 	font-family: 'Mason_Serif_Bold';
 	font-size:18px;
 }
-.textoespe input{
+.actor-v1 .textoespe input{
 	font-family: 'Goudy_old_bold';
 	font-size:18px;
 	text-align: left;
 }
-.tabladano{
+.actor-v1 .tabladano{
 	font-family: 'Goudy_old_bold';
 	font-size:18px;
 	text-align: left;
 	color: #003f62;
 	background-color: #e5f2fd;
 }
-.tabladano table td:first-child a{
+.actor-v1 .tabladano table td:first-child a{
 	font-family: 'Goudy_old_bold';
 	font-size:18px;
 	text-align: left;
 	color: #003f62;
 	padding-left:10px;
 }
-.custom-system-item-container-image{
+.actor-v1 .custom-system-item-container-image{
 	display:none;
 }
-.iniciativapanel{
+.actor-v1 .iniciativapanel{
 	display:none;
 }
-.tabbedpanel .item{
+.actor-v1 .tabbedpanel .item{
 	font-family:'Mason_Serif_Bold';
 	font-size:19px;
 	font-weight:700;
 	text-align:center;
 	color:#505851;
 }
-.tabbedpanel .item.active{
+.actor-v1 .tabbedpanel .item.active{
 	text-decoration: underline;
 	color:black;
 }
-.charname{
+.actor-v1 .charname{
 	font-family:'Mason_Serif_Bold';
 	font-size:30px;
 }
-.itemname{
+.actor-v1 .itemname{
 	font-family:'Mason_Serif_Bold';
 	font-size:30px;
 }
-.tablatallim table{
+.actor-v1 .tablatallim table{
 	font-family:'Goudy_old_bold';
 	font-size:15px;
 	background-color: #e5f2fd;
 }
-.tablatallim table td:first-child a{
+.actor-v1 .tablatallim table td:first-child a{
 	color: #003f62;
 }
-.tablatallim table p{
+.actor-v1 .tablatallim table p{
 	font-family:'Goudy_old_bold';
 	font-size:15px;
 	text-align: justify;
 	padding-right:7px;
 }
-.tablatallim table tr:first-child{
+.actor-v1 .tablatallim table tr:first-child{
 	font-family:'Mason_Serif_Bold';
 	font-size:18px;
 }
-.tablatallim table td:first-child{
+.actor-v1 .tablatallim table td:first-child{
 	padding-left:8px;
 }
-.tablaexp table{
+.actor-v1 .tablaexp table{
 	background-color:transparent;
 	border: 0px;
 }
-.tablaexp table tr:first-child{
+.actor-v1 .tablaexp table tr:first-child{
 	border-bottom: 1px solid;
 }
-.notastext {
+.actor-v1 .notastext {
 	font-family:'Goudy_old_bold';
 	font-size:15px;
 }
-.numdif {
+.actor-v1 .numdif {
 	font-family:'Goudy_old_bold';
 	font-size:15px;
 	text-align:center;
 }
-.descitem{
+.actor-v1 .descitem{
 	font-family:'Goudy_old_bold';
 	font-size:15px;
 	text-align:justify;
 }
-.descitem label{
+.actor-v1 .descitem label{
 	font-family:'Mason_Serif_Bold';
 	font-size:18px;
 	text-align:justify;
 }
-.custom-system-roll {
+.actor-v1 custom-system-roll {
     background: #fff0;
     border: 0px solid #4b4a44;
 	font-family:'Mason_Serif_Bold';
@@ -188,7 +188,7 @@ font-family:'Mason_Serif_Bold';
 }
 .chat-message .message-content p{
 font-family:'Mason_Serif_Bold';
-	font-size:15px;
+	font-size:25px;
 	font-weight:700;
 	text-align:center;
 	border:0px;
@@ -236,11 +236,11 @@ font-family:'Goudy_old_bold';
 	font-weight:700;
 	padding-bottom:15px;
 }
-.tablatallim a.content-link{
+.actor-v1 .tablatallim a.content-link{
 	background:transparent;
 	border: 0px;
 }
-.tabladano a.content-link{
+.actor-v1 .tabladano a.content-link{
 	background:transparent;
 	border: 0px;
 }
@@ -266,4 +266,458 @@ font-family:'Goudy_old_bold';
 	font-family:'Goudy_old_bold';
 	text-wrap: wrap;
 	font-size:10px;
+}
+.actor-v1 .charname input[type="text"] {
+	background:transparent;
+	border-width: 0px 0px 1px 0px;
+	border-radius:0px;
+}
+.actor-v1 input[type="text"] {
+	background:transparent;
+	border-width: 0px 0px 1px 0px;
+	border-radius:0px;
+}
+.actor-v1 select {
+	background:transparent;
+	border-width: 0px 0px 1px 0px;
+	border-radius:0px;
+}
+.actor-v1 .textointro span {
+	width:auto;
+	margin-left: 27px;
+}
+.actor-v1 .dinero input{
+	width:auto;
+}
+.actor-v1 .dinero {
+	width:100%;
+}
+.actor-v1 .textoespe {
+	margin-top:5px;
+}
+.actor-v1 .custom-system-actor-content {
+	background: url('../packs/assets/FondoRI.webp')center;
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	background-blend-mode: luminosity;
+	background-color: aliceblue;
+}
+.actor-v1 .tablahab table tr:nth-child(even) {
+        background-color: rgb(226 241 255 / 75%);
+}
+.actor-v1 .sociales table{
+	border-right:0px;
+}
+.actor-v1 .tabladano {
+    background-color: transparent;
+}
+.actor-v1 .tabladano table{
+    background-color: transparent;
+		border-bottom:0px;
+}
+.actor-v1 .tabladano table tr:nth-child(even) {
+        background-color: rgb(226 241 255 / 75%);
+}
+.actor-v1 .tablatallim {
+
+    background-color: transparent;
+}
+.actor-v1 .tablatallim table{
+    background-color: transparent;
+	border-bottom:0px;
+}
+.actor-v1 .tablatallim table tr:nth-child(even) {
+        background-color: rgb(226 241 255 / 75%);
+}
+.actor-v1 .equipamientotabla table tr:last-child {
+	background-color:transparent;
+}
+.chat-message .message-content {
+	font-family: 'Goudy_old_bold';
+	font-size:20px;
+}
+.actor-v1 .sheet .custom-system-actor header.sheet-header .profile-img-container img {
+	display:block;
+	-webkit-transition-property: all; 
+	-webkit-transition-duration: 0.3s; 
+	-webkit-transition-timing-function: ease; 
+	z-index:999
+}
+.actor-v1 .sheet .custom-system-actor header.sheet-header .profile-img-container img:hover {
+	transform: translate(50%, 50%) scale(2);
+}
+.chat-message .message-header .message-sender {
+	overflow-wrap: break-word;
+	hyphens: auto;
+	hyphenate-character: auto;
+}
+.custom-system-roll {
+	border:0px;
+	background:transparent;
+}
+.item-v1 .window-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+	background: aliceblue;
+    padding: 8px;
+    color: var(--color-text-dark-primary);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.chat-message {
+	background: aliceblue;
+}
+.item-v1 .custom-system-rollable {
+    color: #003f62;
+}
+.item-v1 .hablabel{
+	flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+	font-family: 'Goudy_old_bold';
+	font-size:17px;
+	text-align: justify;
+}
+.item-v1 .habnumber input{
+	font-family: 'Goudy_old_bold';
+	font-size:17px;
+	text-align: center;
+	width: 30px;
+}
+.item-v1 .tablahab table {
+	background-color:transparent;
+	border-right:1px solid #003f62;
+	border-top:0px;
+	border-bottom:0px;
+}
+.item-v1 .titulogrande{
+	font-family: 'Mason_Serif_Bold';
+	font-size:20px;
+}
+.item-v1 .titulonorm{
+	font-family: 'Mason_Serif_Bold';
+	font-size:18px;
+}
+.item-v1 .textointro{
+	font-family: 'Mason_Serif_Bold';
+	font-size:18px;
+}
+.item-v1 .textointro input{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: center;
+	width:40px;
+}
+.item-v1 .textointro select{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: center;
+	width: 50%;
+}
+.item-v1 .textoespe{
+	font-family: 'Mason_Serif_Bold';
+	font-size:18px;
+}
+.item-v1 .textoespe input{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: left;
+}
+.item-v1 .tabladano{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: left;
+	color: #003f62;
+	background-color: #e5f2fd;
+}
+.item-v1 .tabladano table td:first-child a{
+	font-family: 'Goudy_old_bold';
+	font-size:18px;
+	text-align: left;
+	color: #003f62;
+	padding-left:10px;
+}
+.item-v1 .custom-system-item-container-image{
+	display:none;
+}
+.item-v1 .iniciativapanel{
+	display:none;
+}
+.item-v1 .tabbedpanel .item{
+	font-family:'Mason_Serif_Bold';
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	color:#505851;
+}
+.item-v1 .tabbedpanel .item.active{
+	text-decoration: underline;
+	color:black;
+}
+.item-v1 .charname{
+	font-family:'Mason_Serif_Bold';
+	font-size:30px;
+}
+.item-v1 .itemname{
+	font-family:'Mason_Serif_Bold';
+	font-size:30px;
+}
+.item-v1 .tablatallim table{
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	background-color: #e5f2fd;
+}
+.item-v1 .tablatallim table td:first-child a{
+	color: #003f62;
+}
+.item-v1 .tablatallim table p{
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	text-align: justify;
+	padding-right:7px;
+}
+.item-v1 .tablatallim table tr:first-child{
+	font-family:'Mason_Serif_Bold';
+	font-size:18px;
+}
+.item-v1 .tablatallim table td:first-child{
+	padding-left:8px;
+}
+.item-v1 .tablaexp table{
+	background-color:transparent;
+	border: 0px;
+}
+.item-v1 .tablaexp table tr:first-child{
+	border-bottom: 1px solid;
+}
+.item-v1 .notastext {
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+}
+.item-v1 .numdif {
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	text-align:center;
+}
+.item-v1 .descitem{
+	font-family:'Goudy_old_bold';
+	font-size:15px;
+	text-align:justify;
+}
+.item-v1 .descitem label{
+	font-family:'Mason_Serif_Bold';
+	font-size:18px;
+	text-align:justify;
+}
+.item-v1 custom-system-roll {
+    background: #fff0;
+    border: 0px solid #4b4a44;
+	font-family:'Mason_Serif_Bold';
+	font-size:30px;
+	font-weight:600;
+}
+.custom-system-roll i{
+	display: none;
+}
+.chat-message .message-content h1{
+font-family:'Mason_Serif_Bold';
+	font-size:30px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+font-family:'Mason_Serif_Bold';
+	font-size:25px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+font-family:'Mason_Serif_Bold';
+	font-size:25px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.inline-roll {
+	font-family:'Goudy_old_bold';
+}
+.sheet.journal-entry .journal-entry-content{
+	background: aliceblue;
+}
+.monks-enhanced-journal .enhanced-journal .sheet.journal-entry .journal-entry-content {
+	background: aliceblue;
+}
+.sheet.journal-entry .journal-entry-page header h1{
+font-family:'Mason_Serif_Bold';
+	font-size: 40px;
+}
+.sheet.journal-entry .journal-entry-page h1{
+font-family:'Mason_Serif_Bold';
+	font-size: 30px;
+}
+.sheet.journal-entry .journal-entry-page h2{
+font-family:'Mason_Serif_Bold';
+	font-size: 28px;
+}
+.sheet.journal-entry .journal-entry-page h3{
+font-family:'Mason_Serif_Bold';
+	font-size: 20px;
+}
+.sheet.journal-entry .journal-entry-page {
+font-family:'Goudy_old_bold';
+	font-size: 15px;
+}
+.sheet.journal-entry .pages-list .page-heading .page-title{
+	font-family:'Mason_Serif_Bold';
+	font-size: 20px;
+}
+.sheet.journal-entry .pages-list .h2 .heading-link {
+	font-family:'Mason_Serif_Bold';
+	font-size: 16px;
+}
+.sheet.journal-entry .journal-header .title {
+	font-family:'Mason_Serif_Bold';
+	font-size: 50px;
+	font-weight:700;
+	padding-bottom:15px;
+}
+.item-v1 .tablatallim a.content-link{
+	background:transparent;
+	border: 0px;
+}
+.item-v1 .tabladano a.content-link{
+	background:transparent;
+	border: 0px;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Mason_Serif_Bold';
+	text-align:center;
+	font-size: 1vw;
+	text-wrap: wrap;
+	line-height:100%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #003f62;
+	white-space: normal;
+}
+.chat-message .message-header {
+	border-bottom: 2px solid #003f62;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'Goudy_old_bold';
+	text-wrap: wrap;
+	font-size:10px;
+}
+.item-v1 .charname input[type="text"] {
+	background:transparent;
+	border-width: 0px 0px 1px 0px;
+	border-radius:0px;
+}
+.item-v1 input[type="text"] {
+	background:transparent;
+	border-width: 0px 0px 1px 0px;
+	border-radius:0px;
+}
+.item-v1 select {
+	background:transparent;
+	border-width: 0px 0px 1px 0px;
+	border-radius:0px;
+}
+.item-v1 .textointro span {
+	width:auto;
+	margin-left: 27px;
+}
+.item-v1 .dinero input{
+	width:auto;
+}
+.item-v1 .dinero {
+	width:100%;
+}
+.item-v1 .textoespe {
+	margin-top:5px;
+}
+.item-v1 .custom-system-actor-content {
+	background: url('../packs/assets/FondoRI.webp')center;
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	background-blend-mode: luminosity;
+	background-color: aliceblue;
+}
+.item-v1 .tablahab table tr:nth-child(even) {
+        background-color: rgb(226 241 255 / 75%);
+}
+.item-v1 .sociales table{
+	border-right:0px;
+}
+.item-v1 .tabladano {
+    background-color: transparent;
+}
+.item-v1 .tabladano table{
+    background-color: transparent;
+		border-bottom:0px;
+}
+.item-v1 .tabladano table tr:nth-child(even) {
+        background-color: rgb(226 241 255 / 75%);
+}
+.item-v1 .tablatallim {
+
+    background-color: transparent;
+}
+.item-v1 .tablatallim table{
+    background-color: transparent;
+	border-bottom:0px;
+}
+.item-v1 .tablatallim table tr:nth-child(even) {
+        background-color: rgb(226 241 255 / 75%);
+}
+.item-v1 .equipamientotabla table tr:last-child {
+	background-color:transparent;
+}
+.chat-message .message-content {
+	font-family: 'Goudy_old_bold';
+	font-size:20px;
+}
+.item-v1 .sheet .custom-system-actor header.sheet-header .profile-img-container img {
+	display:block;
+	-webkit-transition-property: all; 
+	-webkit-transition-duration: 0.3s; 
+	-webkit-transition-timing-function: ease; 
+	z-index:999
+}
+.item-v1 .sheet .custom-system-actor header.sheet-header .profile-img-container img:hover {
+	transform: translate(50%, 50%) scale(2);
+}
+.chat-message .message-header .message-sender {
+	overflow-wrap: break-word;
+	hyphens: auto;
+	hyphenate-character: auto;
+}
+.custom-system-roll {
+	border:0px;
+	background:transparent;
+}
+.custom-dialog .window-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+	background: aliceblue;
+    padding: 8px;
+    color: var(--color-text-dark-primary);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.custom-system-user-input-button[data-inputaction="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-inputaction="add-10"] {
+	display:none;
 }
