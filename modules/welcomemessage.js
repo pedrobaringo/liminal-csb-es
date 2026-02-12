@@ -67,6 +67,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("liminal-csb-es", "welcomeMessage", true);
 						game.user.setFlag("liminal-csb-es", "lastVersion", game.modules.get("liminal-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				}
 				}, 100);
@@ -111,6 +113,8 @@ Hooks.once("ready", function() {
 						}, 500);
 						game.user.setFlag("liminal-csb-es", "welcomeMessage", true);
 						game.user.setFlag("liminal-csb-es", "lastVersion", game.modules.get("liminal-csb-es").version);
+						ui.notifications.info(game.i18n.localize("Templates importadas. Recargando mundo en 6sec..."), {permanent: true});
+						window.setTimeout(window.location.reload.bind(window.location), 7000);
 					});
 				}
 				}, 500);
